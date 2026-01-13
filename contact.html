@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - ADF GLOBAL TRADING S.A.C.</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/logoADF1.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar" role="banner">
+    <div class="logo">
+      <a href="index.html"><img src="img/logoADF.png" alt="ADF GLOBAL TRADING S.A.C."></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="about.html">Nosotros</a></li>
+      <li><a href="products.html">Productos</a></li>
+      <li><a href="noticia.html">Noticias</a></li>
+      <li><a href="contact.html" class="active">Contacto</a></li>
+    </ul>
+    <a href="contact.html" class="btn-nav">Contáctanos</a>
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero contact-hero">
+    <div class="hero-text">
+      <h1>Contáctanos</h1>
+      <p>ADF GLOBAL TRADING S.A.C. · Cultivamos calidad, exportamos confianza 🌎</p>
+    </div>
+  </section>
+
+  <!-- Información de contacto -->
+  <section class="contact-info-section container">
+    <h2>Información de contacto</h2>
+    <div class="contact-grid">
+      <div class="contact-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Planta de Proceso</h3>
+        <p>Avenida Peralvillo #3320<br>Santa María – Huaura, Lima, Perú<br>Código Postal: 15138</p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-map"></i>
+        <h3>Dirección Fiscal</h3>
+        <p>Calle Deán Valdivia #148 – Int. 07<br>Urb. Jardín San Isidro, Edificio Platinum Plaza – Piso 7<br>Lima – San Isidro</p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-phone"></i>
+        <h3>Teléfono</h3>
+        <p>+51 944 563 210</p>
+      </div>
+      <div class="contact-box">
+        <i class="fab fa-whatsapp"></i>
+        <h3>WhatsApp</h3>
+        <p><a href="https://wa.me/51944563210" target="_blank">+51 944 563 210</a></p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-envelope"></i>
+        <h3>Email General</h3>
+        <p>contacto@adfglobal.com</p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-headset"></i>
+        <h3>Soporte Técnico</h3>
+        <p>soporte@adfglobal.com</p>
+      </div>
+      <div class="contact-box">
+        <i class="fas fa-id-card"></i>
+        <h3>RUC</h3>
+        <p>20614267322</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Redes sociales -->
+  <section class="social-section container">
+    <h2>Conéctate con nosotros</h2>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section class="contact-form-section container" id="form-contact">
+    <div class="form-wrapper">
+
+      <!-- Texto institucional -->
+      <div class="form-intro">
+        <h2>Formulario de contacto</h2>
+        <p>
+          Para consultas comerciales, información sobre nuestros productos o
+          propuestas de negocio, completa el siguiente formulario y nuestro
+          equipo se comunicará contigo a la brevedad.
+        </p>
+
+        <ul class="form-highlights">
+          <li><i class="fas fa-check-circle"></i> Atención personalizada</li>
+          <li><i class="fas fa-check-circle"></i> Respuesta rápida</li>
+          <li><i class="fas fa-check-circle"></i> Soporte comercial especializado</li>
+        </ul>
+      </div>
+
+      <!-- Formulario -->
+      <form class="contact-form" action="#" method="post">
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Nombre completo</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Asunto</label>
+            <select id="subject" name="subject">
+              <option value="">Seleccione una opción</option>
+              <option>Consulta comercial</option>
+              <option>Exportaciones</option>
+              <option>Proveedores</option>
+              <option>Soporte técnico</option>
+              <option>Otros</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn-form">
+          Enviar consulta
+        </button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="map container">
+    <h2>Ubícanos</h2>
+    <div class="map-iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7890.3414!2d-77.4341!3d-11.123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91068e8b9f1a27a1%3A0xf000a1!2sAv.%20Peralvillo%203320%2C%20Santa%20Mar%C3%ADa%20-%20Huaura%2C%20Lima!5e0!3m2!1ses!2spe!4v1728594800000!5m2!1ses!2spe" width="100%" height="350" style="border:0;" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <img src="img/logoADF.png" alt="ADF GLOBAL TRADING S.A.C." class="footer-logo">
+        <p>ADF GLOBAL TRADING S.A.C. es una empresa peruana dedicada al cultivo, proceso y exportación de productos agrícolas de la más alta calidad, comprometidos con el desarrollo sostenible y los pequeños agricultores.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="products.html">Productos</a></li>
+          <li><a href="noticia.html">Noticias</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Av. Peralvillo #3320, Santa María – Huaura, Lima</p>
+        <p><i class="fas fa-envelope"></i> contacto@adfglobal.com</p>
+        <p><i class="fas fa-phone-alt"></i> +51 944 563 210</p>
+      </div>
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 ADF GLOBAL TRADING S.A.C. | RUC: 20614267322 - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+  <script>
+  const form = document.querySelector(".contact-form");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const name = form.name.value.trim();
+    const email = form.email.value.trim();
+    const message = form.message.value.trim();
+
+    if (!name || !email || !message) {
+      alert("Por favor complete los campos obligatorios.");
+      return;
+    }
+
+    enviarFormulario();
+  });
+  </script>
+
+</html>
