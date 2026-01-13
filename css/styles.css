@@ -262,6 +262,18 @@ h2 {
   .menu-toggle {
     display: block;
   }
+    .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    max-width: 100%;
+  }
+    .team-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 
@@ -1264,3 +1276,4 @@ blockquote::before {
     padding: 2rem;
   }
 }
+
